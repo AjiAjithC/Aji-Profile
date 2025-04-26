@@ -35,7 +35,7 @@ export default function Header() {
          <div className=' max-w-[800px] p-2 md:max-w-[1000px] lg:max-w-[1150px] xl:max-w-[1250px]  mx-auto flex flex-col p-5'>
             <div className='flex items-center gap-10 justify-between items-center'>
                <div>
-                  <h1 className='text-4xl font-bold'>Ajith.</h1>
+                  <h1 className='text-4xl font-bold'>C.Ajith</h1>
                </div>
                <div className='hidden sm:block'>
                   <div className='flex items-center gap-10'>

@@ -4,10 +4,17 @@ import { FaAngleRight, FaArrowRight, FaFacebookF, FaInstagram, FaLinkedinIn, FaW
 import { MdMailOutline } from 'react-icons/md'
 import { IoLogoWhatsapp, IoMailOutline } from 'react-icons/io5'
 import { FiMail } from 'react-icons/fi'
+import myFile from '../../assets/ajithResume.pdf'; 
 export default function Home() {
-   const handleViewResume = () => {
-      window.open("/doc/ajithcv.pdf", "_blank");
+
+    const handleDownload = () => {
+      const link = document.createElement('a');
+      link.href = myFile; // relative to public/
+      link.download = 'ajithResume.pdf'; // the filename for saving
+      link.click();
     };
+    
+
    return (
       <div id='HOME' className='bg-LightPrimary pt-10 pb-15'>
 
@@ -15,7 +22,7 @@ export default function Home() {
             <div className='flex flex-col-reverse sm:flex-row '>
                <div className='flex flex-1 flex-col   justify-center'>
                   <p className='font-light   text-lg text-textLightPrimary'>Hello, I am</p>
-                  <p className='font-bold text-5xl mt-1'>Ajith ChandraSekar</p>
+                  <p className='font-bold text-5xl mt-1'>Ajith Chandrasekar</p>
 
                   <div className='flex mt-5'>
                      <div className='border-y py-2 border-borderPrimary pr-5'>
@@ -39,7 +46,7 @@ export default function Home() {
 
 
                   <div className='mt-7'>
-                     <button  onClick={handleViewResume}  className='border-2 px-10 py-2 rounded-4xl flex items-center bg-LightSecondary'>
+                     <button  onClick={handleDownload}  className='border-2 px-10 py-2 rounded-4xl flex items-center bg-LightSecondary'>
                         <p className='font-light text-base  text-black'>View My Resume</p>
                         <FaArrowRight className='pl-2 text-xl' />
                      </button>

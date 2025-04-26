@@ -14,7 +14,7 @@ export default function Contact() {
       },
       {
          title: "Address",
-         context: "Navalue Attur(Tk),Salem(Dt), Tamil Nadu",
+         context: "Navalur Attur(Tk),Salem(Dt), Tamil Nadu",
          icon: location
       },
       {
