@@ -68,7 +68,7 @@ export default function AboutMe() {
             </div>
             <div className='flex mt-10 flex-col lg:flex-row gap-10'>
                <div className='flex flex-1 p-2'>
-                  <p className='text-base text-textLightPrimary'>I'm a self-motivated and adaptable Senior React Native Developer with 3.3 years of hands-on experience. I specialize in building smooth, high-performance apps using React Native, and I'm also skilled in React and Next.js for web development. I’m a quick learner who’s always open to exploring new technologies. With strong problem-solving abilities, solid planning and organizational skills, and clear communication, I work well both independently and as part of a team.</p>
+                  <p className='text-base text-textLightPrimary'>I'm a self-motivated and adaptable Senior React Native Developer with 4 years of hands-on experience. I specialize in building smooth, high-performance apps using React Native, and I'm also skilled in React and Next.js for web development. I’m a quick learner who’s always open to exploring new technologies. With strong problem-solving abilities, solid planning and organizational skills, and clear communication, I work well both independently and as part of a team.</p>
                </div>
                <div className='flex flex-col flex-1 items-start'>
                   <h1 className='text-center font-bold text-xl'>Skills</h1>

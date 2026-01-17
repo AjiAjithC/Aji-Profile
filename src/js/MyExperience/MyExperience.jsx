@@ -5,6 +5,7 @@ export default function MyExperience() {
 
 
    const list = [
+      "•  Upgraded mobile application to the latest stable React Native version.",
       "•  Responsive UI Design supporting Android and iOS devices from 4 inches to 7 inches.",
       "•  Hands on Redux with latest @reduxjs/toolkit.",
       "•  Created React Native Template with customized styles and components for efficient new projects development.",
@@ -30,12 +31,21 @@ export default function MyExperience() {
                   <div className='border-1 border-borderPrimary w-85 mt-3' />
                </div>
             </div>
+            
             <div className='flex mt-10 flex-col lg:flex-row'>
+               <div className='flex flex-col flex-1'>
                <div className='flex  flex-col flex-1 items-center lg:items-start '>
+                  {/* <div className='flex justify-center items-center flex-col mt-5'> */}
+                  <h1 className='text-textLightSecondary font-bold text-lg'>Sr.Associate Consultant</h1>
+                  <h1 className='text-textLightPrimary font-medium text-sm mt-1'>Infosys</h1>
+                  <h1 className='text-textLightPrimary font-medium text-sm mt-1'>Aug2025 - Present</h1>
+               </div>
+                 <div className='flex  flex-col flex-1 items-center lg:items-start '>
                   {/* <div className='flex justify-center items-center flex-col mt-5'> */}
                   <h1 className='text-textLightSecondary font-bold text-lg'>REACT NATIVE DEVELOPER</h1>
                   <h1 className='text-textLightPrimary font-medium text-sm mt-1'>Perisync Technologies Pvt Ltd</h1>
-                  <h1 className='text-textLightPrimary font-medium text-sm mt-1'>Feb2022 - Present</h1>
+                  <h1 className='text-textLightPrimary font-medium text-sm mt-1'>Feb2022 - July2025</h1>
+               </div>
                </div>
                <div className='flex  flex-col flex-1 mt-5 lg:mt-0'>
                   {list.map((item) => (
